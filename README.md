@@ -1868,6 +1868,7 @@
      | m | Perform multiline matching|
 
     Let's take an example of global modifier,
+
     ```javascript
       var text = "Learn JS one by one";
       var pattern = /one/g;
@@ -3114,11 +3115,15 @@
 
 250. ### What is typescript?
     TypeScript is a typed superset of JavaScript created by Microsoft that adds optional types, classes, async/await, and many other features, and compiles to plain JavaScript. Angular built entirely in TypeScript and used as a primary language.
+
     You can install it globally as
+
     ```
     npm install -g typescript
     ```
+
     Let's see a simple example of TypeScript usage,
+
     ```typescript
     function greeting(person: string) {
         return "Hello, " + person;
@@ -3128,6 +3133,7 @@
 
     document.body.innerHTML = greeting(user);
     ```
+
     The greeting method allows only string type as argument.
 
 
@@ -4600,13 +4606,6 @@
 
      (![] + [])[3] + (![] + [])[4] + (![] + [])[2] + (![] + [])[0]
      ^^^^^^^^^^^^^   ^^^^^^^^^^^^^   ^^^^^^^^^^^^^   ^^^^^^^^^^^^^
-    (![] + [])[+!+[]+!+[]+!+[]] +
-    (![] + [])[+!+[]+!+[]+!+[]+!+[]] +
-    (![] + [])[+!+[]+!+[]] +
-    (![] + [])[+[]]
-    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    (![]+[])[+!+[]+!+[]+!+[]]+(![]+[])[+!+[]+!+[]+!+[]+!+[]]+(![]+[])[+!+[]+!+[]]+(![]+[])[+[]]
-
      ```
 
 
