@@ -1856,28 +1856,6 @@
      var n = msg.replace(/John/i, "Buttler"); // Hello Buttler
      ```
 
-
-
-156. ### What are modifiers in regular expression?
-     Modifiers can be used to perform case-insensitive and global searches. Let's list down some of the modifiers,
-
-     | Modifier | Description |
-     |---- | ---------
-     | i  | Perform case-insensitive matching |
-     | g | 	Perform a global match rather than stops at first match  |
-     | m | Perform multiline matching|
-
-    Let's take an example of global modifier,
-
-    ```javascript
-      var text = "Learn JS one by one";
-      var pattern = /one/g;
-      var result = text.match(pattern); // one,one
-    ```
-
-
-
-
 157. ### What are regular expression patterns?
      Regular Expressions provided group of patterns in order to match characters. Basically they are categorized into 3 types,
      1. **Brackets:** These are used to find a range of characters.
@@ -3110,32 +3088,6 @@
         return (a += 10, a); // 11
      }
      ```
-
-
-
-250. ### What is typescript?
-    TypeScript is a typed superset of JavaScript created by Microsoft that adds optional types, classes, async/await, and many other features, and compiles to plain JavaScript. Angular built entirely in TypeScript and used as a primary language.
-
-    You can install it globally as
-
-    ```
-    npm install -g typescript
-    ```
-
-    Let's see a simple example of TypeScript usage,
-
-    ```typescript
-    function greeting(person: string) {
-        return "Hello, " + person;
-    }
-
-    let user = "Sudheer";
-
-    document.body.innerHTML = greeting(user);
-    ```
-
-    The greeting method allows only string type as argument.
-
 
 
 251. ### What are the differences between javascript and typescript?
